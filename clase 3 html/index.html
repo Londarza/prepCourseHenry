@@ -4,39 +4,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi sitio web</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body>
-    <h1>Sitio Web de Prueba</h1>
+    <div class="web-title">
+        <h1>Sitio Web de Prueba</h1>
+    </div>
     <header>
-        <ul>
-            <li><a href="./index.html">Home</a></li>
-            <li><a href="./profile.html">Profile</a></li>
-            <li><a href="">Products</a></li>
+
+        <ul class="header-bar">
+            <li><a href="./index.html" class="header-link">Home</a></li>
+            <li><a href="./profile.html" class="header-link">Profile</a></li>
+            <li><a href="" class="header-link">Products</a></li>
         </ul>
+
+
     </header>
     <main>
         <section>
-            <article>
-                <h2>Titulo del primer articulo</h2>
-                <h3>Detalles :</h3>
-                <img src="./img/football-157930_1280.png" alt="futbol" width="20%">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt veritatis praesentium autem eius
-                    repellat maxime quo necessitatibus quia ut minus. Amet nesciunt doloremque laborum illum veniam cum
-                    qui odit et?</p>
-            </article>
-            <article>
-                <h2>Titulo del segundo articulo</h2>
-                <h3>Detalles :</h3>
-                <img src="./img/basketball-147794_1280.png" alt="basket" width="20%">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt veritatis praesentium autem eius
-                    repellat maxime quo necessitatibus quia ut minus. Amet nesciunt doloremque laborum illum veniam cum
-                    qui odit et?</p>
-            </article>
+            <div class="articles-title">
+                <h2>Articulos principales</h2>
+            </div>
+            <div class="article-container">
+                <article class="main-articles">
+                    <h3>Titulo del primer articulo</h3>
+
+                    <img src="./img/football-157930_1280.png" alt="futbol">
+                    <h4>Detalles :</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt veritatis praesentium autem eius
+                        repellat maxime quo necessitatibus quia ut minus. Amet nesciunt doloremque laborum illum veniam
+                        cum
+                        qui odit et?</p>
+                </article>
+                <article class="main-articles">
+                    <h3>Titulo del segundo articulo</h3>
+
+                    <img src="./img/basketball-147794_1280.png" alt="basket">
+                    <h4>Detalles :</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt veritatis praesentium autem eius
+                        repellat maxime quo necessitatibus quia ut minus. Amet nesciunt doloremque laborum illum veniam
+                        cum
+                        qui odit et?</p>
+                </article>
+            </div>
 
         </section>
     </main>
-    <footer>
+    <footer class="main-footer">
         <ul>
             <li><a>Contact us</a></li>
             <li><a>Media</a></li>
